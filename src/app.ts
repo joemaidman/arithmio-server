@@ -3,7 +3,7 @@ import * as bodyParser from 'body-parser';
 
 import { evaluateExpression } from './middlewares';
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 export const application = express();
 
