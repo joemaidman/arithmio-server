@@ -1,0 +1,15 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "semicolon": true,
+    "eofline": true,
+    "no-increment-decrement": false,
+    "trailing-comma": false,
+    "max-line-length": [true, 150],
+    "object-literal-key-quotes": false
+  }
+}
